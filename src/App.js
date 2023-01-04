@@ -22,11 +22,13 @@ function App() {
       title: "Womens",
       id: 4,
       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      size: "large",
     },
     {
       title: "Mens",
       id: 5,
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      size: "large",
     },
   ];
   return <Directory categories={categories} />;
