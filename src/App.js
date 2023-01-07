@@ -16,6 +16,7 @@ class About extends Component {
     return <h2>About page</h2>;
   }
 }
+
 function App() {
   return (
     <Routes>
